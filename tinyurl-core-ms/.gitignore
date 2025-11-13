@@ -1,0 +1,78 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.o
+*.a
+
+# Coverage, profiles, traces
+*.cover
+*.coverprofile
+*.cov
+*.coverage
+coverage.*
+coverage.out
+profile.out
+cpu.prof
+mem.prof
+block.prof
+mutex.prof
+trace.out
+*.pprof
+
+# Go workspace files (keep go.mod and go.sum tracked)
+go.work
+go.work.sum
+
+# Build output
+bin/
+build/
+dist/
+out/
+tmp/
+temp/
+release/
+target/
+
+# Vendored deps (uncomment to ignore if not committing vendor/)
+# vendor/
+
+# Logs
+*.log
+log/
+logs/
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Editors/IDE
+.vscode/
+.vscode-*
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Editor swaps/backups
+*.swp
+*.swo
+*.swn
+*.swm
+*~
+*.bak
+*.orig
+*.tmp
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
